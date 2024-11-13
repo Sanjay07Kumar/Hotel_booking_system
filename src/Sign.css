@@ -1,0 +1,73 @@
+body
+{
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://www.shapesbyhydro.com/globalassets/shapes/expert-thoughts/materials-for-supertall-buildings01.jpg?quality=85&width=1036&height=440&rmode=crop&rsampler=bicubic&rxy=0.5,0.5&compand=true');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+.signup-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(74, 60, 60, 0.8); 
+    border-color:rgb(98, 200, 200);
+    border: 1px solid rgba(98, 200, 200, 0.5); 
+  }
+  
+  .signup-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color:black;
+    
+  }
+  
+  .signup-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .signup-container label {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color:black;
+  }
+  
+  .signup-container input {
+    padding: 8px;
+    font-size: 14px;
+  
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: 1px solid rgba(255, 255, 255, 0.8); 
+    border-radius: 5px;
+    color:black;
+  }
+  .signup-container input::placeholder {
+    color: #666; 
+}
+  .signup-container button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-container button:hover {
+    background-color: #218838;
+  }
+  

@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+  }
+  
+  .header {
+    background-color: #3f51b5; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .navbar {
+    margin: 20px 0;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .search-section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .search-inputs {
+    margin-bottom: 20px;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .offers-section {
+    background-color: #ffeb3b;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .property-types {
+    padding: 20px;
+  }
+  
+  .property-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .property-card {
+    background-color: #e0f7fa; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .property-card img {
+    width: 100%;
+    border-radius: 5px;
+    max-height: 150px;
+    object-fit: cover;
+  }
+  
+  .book-room-button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3f51b5; 
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
